@@ -1,0 +1,105 @@
+/*NAV BAR*/
+
+#navbar {
+  overflow: hidden;
+  background-color: #5F7CA0;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #7F96B3;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+	top: 150px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+/*END NAV BAR*/
+
+/* ------------------------------------------------------------- */
+
+#social {
+  background-color:#5F7CA0;
+  color: white;
+  opacity: 0.90;
+  width: 90%;
+  margin: 0 auto;
+}
+#indexMain{
+ background-color: #5F7CA0;
+  color: white;
+opacity: 0.90;
+width: 90%;
+  margin: 0 auto;
+
+}
+fieldset { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 300px;
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}
+table {
+	text-align: center;
+	border-spacing: 0px;
+	
+
+}
+th {
+	padding: 5px;
+	
+}
+td {
+	padding: 5px;
+	text-align: center;
+	    
+}
+
+a {
+	font-size: 30px;
+	color: white;
+	
+}
+	
+	p {
+		font-size: 20px;
+	}
+
+
+#body {
+	margin:0 auto;
+	padding: 10px;
+	
+	width: 60%;
+	
+}
+
