@@ -1,0 +1,3 @@
+16:50. 28/03/2020
+made changes to contact page - now doesnt kill the website when u click.
+added backgrounds to all main pages

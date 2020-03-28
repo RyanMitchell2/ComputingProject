@@ -44,15 +44,13 @@
 
 /* ------------------------------------------------------------- */
 
-a{
-	color: white;
-}
 
-#indexMain{
+
+#finderMain{
 	 background-color: #5F7CA0;
 	 color: white;
 	 opacity: 0.9;
-	 width: 90%;
+	 width: 80%;
 	 margin: 0 auto;
 }
 
@@ -148,6 +146,23 @@ input[type=submit]:hover {
 form{
 	color: white;
 }
+
+.button {
+  background-color: #5F7CA0;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+#formmessage{
+	  background-color: #7F96B3;
+	  width: 45%;
+	  padding: 1px;
+	margin:  0 auto;
+	  }
 /*END CONTACT PAGE CSS*/
 /*---------------------------------------------------------*/
 /*JOB CATEGORY LAYOUT*/
@@ -157,8 +172,14 @@ form{
   padding: 10px;
   box-sizing: border-box;
    margin: 0;
+    background-color: #7F96B3;
+	color:white;
    
 }
+a{
+	color:white;
+}
+
 
 .spacedlist{
 	 line-height: 1.2;
@@ -176,6 +197,7 @@ li{
 
 .column.middle {
   width: 50%;
+
 }
 
 
@@ -190,4 +212,8 @@ li{
     width: 100%;
 	
   }
+}
+
+#clist {
+	color:white;
 }
